@@ -1,0 +1,642 @@
+* {
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+
+}
+
+
+
+
+  
+
+/* menuuu do topo */
+.topo-texto {
+
+    display: grid;
+    position: relative;
+    background-image: url(../img/fundo\ nav.png); 
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height: 400px;
+    margin: 0px;
+    
+    
+    
+}
+
+
+/* botao do topo*/
+
+
+.buttons {
+
+    display: flexbox;
+    text-align: center;
+    padding: 80px;
+
+}
+
+.botao-discord a {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    padding-top: 90px;
+}
+
+
+
+
+
+.luckiest-guy-regular {
+  text-align: center;
+  font-family: "Luckiest Guy", cursive;
+  word-break: break-all;
+  font-size: 40px;
+  font-style: normal;
+  color: #FFFFFF;
+  height: 60px;
+  padding: 70px;
+  
+  
+  
+}
+
+
+.texto-1 {
+
+    text-align: center;
+    font-family: "Open Sans";
+    font-size:18px;
+    color: #FFFFFF;
+    height: 20px;
+
+
+}
+
+.botao-download {
+
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 7px;
+
+    
+
+}
+
+.botao-discord {
+
+    background-color: rgb(0, 0, 9);
+    color: rgb(248, 248, 248);
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 7px;
+
+}
+
+
+/* a 1 Secão do discord */
+
+
+.section-discord {
+
+    
+    font-family: open sans;
+    
+    
+    
+}
+
+.section-discord h1 {
+
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.section-discord p {
+
+    font-size: 16px;
+
+}
+
+
+ /* Media Screen da primeira parte do texo */
+
+
+@media screen and (max-width: 768px)  {
+    .topo-texto, .texto-1 {
+
+        display: inline-block;
+        flex-direction: column;
+        position: static;
+        height:auto;
+        text-align: left;
+        align-items: center;
+        margin: 0 auto;
+        padding: 6px;
+        font-size: 16px;
+ 
+    }
+
+
+    .luckiest-guy-regular {
+
+        text-align: left;
+    }
+
+
+
+
+    .botao-discord, .botao-download {
+
+        display: block;
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        margin: 7px;
+        padding: 6px;
+        height: 20px;
+        
+    }
+    
+}
+
+
+.discord-1section {
+
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    text-align: left;
+    margin: 40px auto;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 12px;
+    
+    
+    
+    
+    
+}
+
+.discord-1section h1 {
+
+    margin: 30px;
+    text-align: left;
+    font-size: 40px;
+    position: relative;
+    left: 40px;
+}
+
+
+.discord-1section img {
+
+    width: 600px;
+    height: 400px;
+    justify-items: center;
+    display: inline;
+    position: relative;
+    top: 0px;
+    right: 50px;
+    left: 80px;
+    padding-left: 90px;
+    margin: 10px;
+    max-width: 100%;
+}
+
+
+
+.discord-1section p {
+
+   
+    position: relative;
+    top: 290px;
+    right: 320px;
+    
+}
+
+
+
+ /* Media sreen da primeira secção do Discord */
+
+
+@media screen and (max-width: 768px)  {
+
+    .discord-1section {
+
+        display: inline-block;
+        flex-direction: column;
+        position: static;
+        height:auto;
+        text-align: left;
+        align-items: left;
+        margin: 0 auto;
+        padding: 6px;
+        width: 100%;
+
+
+    }
+    .discord-1section img {
+
+    
+        flex-direction: column;
+        align-items: center;
+        width: 380px;
+        height: 280px;
+        margin: 10px;
+        left: 200px;
+        position: static;
+
+    }  
+
+    .discord-1section br {
+
+        display: none;
+    }
+    
+    .discord-1section h1 {
+
+        
+        flex-direction: inline-block;
+        position: static;
+        text-align: left;
+        width: 100%;
+        font-size: 20px;
+        margin: 10px auto ;
+        word-break: break-all;
+        word-wrap: break-word;
+        border: 8px;
+        padding: 10px;
+        gap: 4px;
+      
+    
+    }
+
+
+    .discord-1section p {
+         
+        display: inline-block;
+        flex-direction: row;
+        text-align: center;
+        height: 100px;
+        border: 6px;
+        padding: 10px;
+        margin: 0 auto;
+        position: static;
+        white-space: pre-line;
+        word-break: break-word;
+    }
+
+}
+
+
+
+
+
+.discord-2section {
+
+    background-color:  #F6F6F6;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin: 40px auto;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 12px;
+
+
+}
+
+.discord-2section img {
+
+    display: inline;
+    position: relative;
+    justify-items: center;
+    padding-right: 40px;
+    margin: 40px;
+    height: 400px;
+    width: 600px;
+    right: 260px;
+    gap: 20px;
+    border-radius: 12px;
+    
+}
+
+
+.discord-2section h1 {
+
+    margin: 60px;
+    align-items: flex-end;
+    text-align: left;
+    font-size: 40px;
+    position: relative;
+    left: 200px;
+    flex-direction: row;
+    top: 60px;
+    white-space: nowrap;
+    
+    
+
+}
+
+.discord-2section p {
+
+    margin: 20px;
+    text-align: left;
+    align-items: left;
+    position: relative;
+    top: 200px;
+    height: 160px;
+    right: 180px;
+    white-space: nowrap;
+    
+}
+
+@media screen and (max-width: 768px)  {
+
+
+    .discord-2section {
+        
+        display: flex;
+        flex-direction: column;
+        position: static;
+        align-items: center;
+        margin: 0px;
+        gap: 20px;
+        
+
+
+    }
+    .discord-2section img {
+
+        order: 1;
+        display: flex;
+        width: 380px;
+        height: 280px;
+        position: static;
+        margin: 0 auto;
+        border: 0 auto;
+        padding: 0 auto;
+    
+
+    }  
+
+
+    
+    .discord-2section h1 {
+        
+        order: 2;
+        display: flex;
+        position: static;
+        text-align: center;
+        align-items: center;
+        border: 6px;
+        font-size: 20px;
+        margin: 0 auto;
+        position: static;
+
+    
+    
+      
+    
+    }
+
+
+    .discord-2section p {
+
+        order: 3;
+        display: flex;
+        position: static;
+        text-align: left;
+        margin: 0 auto;
+        border: 10px;
+        
+    }
+
+}
+
+
+.discord-3section {
+
+    background-color:  #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    margin: 40px auto;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 12px;
+
+}
+
+
+.discord-3section img  {
+
+     width: 600px;
+    height: 400px;
+    justify-items: center;
+    display: inline;
+    position: relative;
+    top: 0px;
+    right: 50px;
+    left: 80px;
+    padding-left: 90px;
+    margin: 10px;
+}
+
+
+.discord-3section h1 {
+
+     margin: 30px;
+    text-align: left;
+    font-size: 40px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+
+
+.discord-3section p {
+
+    margin: 60px;
+    text-align: left;
+    align-items: left;
+    position: relative;
+    top: 160px;
+    height: 80px;
+    right: 310px;
+    white-space: nowrap;
+    
+}
+
+@media screen and (max-width: 768px)  {
+
+
+    .discord-3section {
+
+        display: flex;
+        position: static;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        gap: 20px;
+
+
+    }
+    .discord-3section img {
+
+        display: inline-block;
+        flex-direction: column;
+        align-items: center;
+        width: 380px;
+        height: 280px;
+        margin: 10px;
+        position: static;
+
+    }  
+    
+    .discord-3section h1 {
+
+        display: inline-block;
+        flex-direction: column;
+        position: static;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        margin: 0 auto;
+        padding: 0 auto;
+        border: 0 auto;
+      
+    
+    }
+
+
+    .discord-3section p {
+         
+        display: inline-block;
+        flex-direction: column;
+        text-align: center;
+        position: static;
+    }
+
+}
+
+
+
+
+.discord-4section { 
+    
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    
+    
+
+    }
+
+
+    .discord-4section h1 {
+
+        font-family: "Luckiest Guy", cursive;
+        font-size: 40px;
+    }
+
+
+    .discord-4section p {
+
+        font-family: "Open Sans";
+    }
+
+
+    @media screen and (max-width: 768px)  {
+
+
+    .discord-4section {
+
+        display: flex;
+        position: static;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+
+
+
+    }
+    .discord-4section img {
+
+        display: inline-block;
+        flex-direction: column;
+        align-items: center;
+        width: 380px;
+        height: 280px;
+        margin: 10px;
+        left: 200px;
+        position: static;
+
+    }  
+
+    
+    .discord-4section h1 {
+
+        display: inline-block;
+        flex-direction: column;
+        position: static;
+        text-align: center;
+        border: 10px;
+        font-size: 20px;
+        margin: 6px auto ;
+      
+    
+    }
+
+
+    .discord-4section p {
+         
+        display: inline-block;
+        flex-direction: column;
+        text-align: left;
+    }
+
+}
+
+
+
+    .rodape {
+
+        
+        background-color: #23272A;
+        padding: 20px;
+        
+    }
+
+    .rodape img {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+
+   
+
+ 
